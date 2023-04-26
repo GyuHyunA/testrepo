@@ -668,7 +668,7 @@ let slidelink = document.querySelectorAll(".slide__link");
 slidelink.forEach((v) => {
 	let image = document.createElement("img");
 	image.classList = "ho-con"
-    image.src = "../img/storycu.png";
+    image.src = "img/storycu.png";
   v.addEventListener("mouseover", function () {
     v.appendChild(image);
   });
