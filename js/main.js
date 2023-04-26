@@ -666,13 +666,13 @@ let slidelink = document.querySelectorAll(".slide__link");
 // let hocon = documnet.querySelector(".ho-con")
 
 slidelink.forEach((v) => {
-	let image = document.createElement("img");
-	image.classList = "ho-con"
-    image.src = "img/storycu.png";
+  let image = document.createElement("img");
+  image.classList = "ho-con";
+  image.src = "img/storycu.png";
   v.addEventListener("mouseover", function () {
     v.appendChild(image);
   });
-  image.addEventListener("mouseout",function(){
-	v.removeChild(image);
-  })
+  image.addEventListener("mouseout", function () {
+    v.removeChild(image);
+  });
 });
